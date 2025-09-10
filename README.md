@@ -1,12 +1,21 @@
-# React + Vite
+# React Exam Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img width="1919" height="875" alt="Screenshot 2025-09-10 183829" src="https://github.com/user-attachments/assets/f2f1cb6c-843f-41d1-bb9e-568ea12816be" />
 
-Currently, two official plugins are available:
+# Работа на экзамене:  
+Одна страница в виде **grid 3x3**, где каждая ячейка содержит карточку товара (смартфона)  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Используемые технологии:
+- **React** (компоненты, JSX)  
+- **CSS Modules** (стилизация)  
+- Работа с **состоянием** (добавление и удаление товаров из корзины)  
+- Отображение данных через **props**  
 
-## Expanding the ESLint configuration
+## Функционал:
+- Сетка товаров 3x3  
+- Карточка товара с названием, ценой, описанием  ### без изображений. заглушки есть
+- Кнопки «Добавить» и «Удалить» для работы с корзиной  
+- Модальное окно корзины с подсчётом общей суммы  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+Проект демонстрирует базовые навыки работы с React и компонентами.
