@@ -1,0 +1,48 @@
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background: white;
+  padding: 20px 30px;
+  border-radius: 12px;
+  width: 400px;
+  max-height: 80vh;
+  overflow-y: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  color: black;
+}
+
+.cartList {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0;
+}
+
+.cartList li {
+  margin: 5px 0;
+}
+
+.closeBtn {
+  background-color: orange;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  color: black;
+}
+
+.closeBtn:hover {
+  background-color: #d32f2f;
+}

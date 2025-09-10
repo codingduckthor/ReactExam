@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #222;
+  color: white;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: green;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.title {
+  flex: 1;
+  text-align: center;
+  font-size: 24px;
+}
+
+.cartBtn {
+  background-color: orange;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  color: black;
+}
+
+.cartBtn:hover {
+  background-color: yellow;
+}
